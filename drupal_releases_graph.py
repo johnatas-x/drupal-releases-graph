@@ -131,7 +131,7 @@ plt.tight_layout()
 
 # Export PNG
 #plt.savefig("drupal_versions_lifecycle.png", dpi=300)
-#print("✅ Fichier exporté : drupal_versions_lifecycle.png")
+#print("✅ File saved: drupal_versions_lifecycle.png")
 
 # Preview graph.
 plt.show()
