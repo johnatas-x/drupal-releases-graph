@@ -9,8 +9,6 @@ This Python script generates a visual timeline of the maintenance and security l
 - ⏳ Versions are sorted chronologically (oldest at the top).
 - ⚠️ **Future dates are estimates** and will be updated when official release/support dates are confirmed by the Drupal team.
 
----
-
 ## 📸 Output
 
 The chart displays:
@@ -19,7 +17,7 @@ The chart displays:
 - Faded bars for phases **that are in the past**, to visually distinguish historical from current/future periods.
 - A legend in the **top-right corner**.
 
----
+> 🖼️ An example of the final output is available at the root of the repository as `graph_example.png`.
 
 ## 🛠️ Requirements
 
@@ -48,8 +46,6 @@ python drupal_releases_graph.py
 deactivate
 ```
 
----
-
 ## 🖼️ Output Behavior
 
 By default, the script will **open a preview window** showing the generated chart.  
@@ -69,8 +65,6 @@ To **automatically export the chart as a PNG without preview**, edit the file:
 
 These lines are located near the end of the script (`drupal_releases_graph.py`, around line 137).
 
----
-
 ## 📂 Output File
 
 When the preview is disabled, the chart will be saved as:
@@ -81,11 +75,7 @@ drupal_versions_lifecycle.png
 
 in the same directory as the script.
 
----
-
 ## 📌 Notes
 
 - This chart can help teams anticipate version transitions and end-of-life deadlines.
 - If you'd like to generate an SVG version or change language settings, feel free to adapt the script.
-
----
